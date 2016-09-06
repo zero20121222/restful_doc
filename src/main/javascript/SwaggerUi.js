@@ -90,7 +90,6 @@ window.SwaggerUi = Backbone.Router.extend({
 
   // Create an api and render
   load: function(){
-
     // Initialize the API object
     if (this.mainView) {
       this.mainView.undelegateEvents();

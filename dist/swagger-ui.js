@@ -20846,7 +20846,6 @@ window.SwaggerUi = Backbone.Router.extend({
 
   // Create an api and render
   load: function(){
-
     // Initialize the API object
     if (this.mainView) {
       this.mainView.undelegateEvents();
@@ -21031,6 +21030,7 @@ window.SwaggerUi.Views = {};
 }(this, function () {
     return SwaggerUi;
 }));
+
 'use strict';
 
 SwaggerUi.Views.ApiKeyButton = Backbone.View.extend({ // TODO: append this to global SwaggerUi
